@@ -1,0 +1,24 @@
+/* Colors */
+
+$black: #2E2E2E;
+$gray-100: #f6f6f6;
+$gray-200: #888888;
+$gray-300: #3c3c3c;
+
+
+
+
+body {
+  @apply relative w-full antialiased;
+  font-family: 'Gilroy';
+  font-style: normal;
+  color: $black;
+}
+
+::-moz-selection {
+  @apply text-white bg-black;
+}
+
+::selection {
+  @apply text-white bg-black;
+}
